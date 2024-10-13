@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <script src="./script.js"></script>
+</head>
+<body>
+     <h1 id="head">Hello DOM</h1>
+    <ul>
+        <li class="cls">bla</li>
+        <li class="cls">blaa</li>
+        <li class="cls">blaaa</li>
+        <li class="cls">blaaaa</li>
+        <li class="cls">blaaaaa</li>
+    </ul>
+    <p class="cls">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia mollitia perferendis est beatae veniam, ipsam fuga nihil id error quidem ducimus ut adipisci reiciendis nulla eos doloremque assumenda maxime accusamus.</p>
+    <script>
+        // const arr=[1,2,3,4,5,6,7,8,9];
+        // console.log(arr);
+
+    //     let doc1=document.getElementById("head")
+    //     console.log(doc1);
+    //     doc1.style.color="red"
+
+    //     let doc2=document.getElementsByClassName('cls')
+    //     console.log(doc2);
+    //     console.log(Array.from(doc2));
+    //     Array.from(doc2).map(item=>item.style.color="green")
+
+    //     let doc3=document.getElementsByTagName('li')
+    //     console.log(doc3);
+    //     console.log([...doc3].map(item=>item.style.color="blue"));
+
+    //     let doc4=document.querySelector('.cls')
+    //     console.log(doc4);
+        
+    //     let doc5=document.querySelectorAll('.cls')
+    //     console.log(doc5);
+        
+        
+    // </script> 
+
+    <!-- <button onclick="btnclick()">click me</button>
+
+    <script>
+        function btnclick(){
+            alert('welcome to DOM')
+        }
+    </script> -->
+
+      <script>
+        <button onclick="btnclick()">click me</button>
+        let doc3=document.getElementsByTagName('li')
+        console.log(doc3);
+        console.log([...doc3].map(item=>item.style.color="blue"));
+
+      </script>
+
+</body>
+</html>
